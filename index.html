@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Dating Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to My Dating Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Log In</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Find Your Perfect Match</h2>
+			<form>
+				<label for="gender">I am a:</label>
+				<select id="gender" name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+				<label for="looking-for">Looking for:</label>
+				<select id="looking-for" name="looking-for">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+				<label for="age">Age:</label>
+				<input type="number" id="age" name="age" min="18" max="99">
+				<label for="location">Location:</label>
+				<input type="text" id="location" name="location">
+				<button type="submit">Search</button>
+			</form>
+		</section>
+		<section>
+			<h2>Featured Members</h2>
+			<ul>
+				<li>
+					<img src="profile-pic-1.jpg" alt="Profile Picture">
+					<h3>John Doe</h3>
+					<p>Age: 28</p>
+					<p>Location: New York, NY</p>
+					<p>Interests: Hiking, Traveling, Cooking</p>
+				</li>
+				<li>
+					<img src="profile-pic-2.jpg" alt="Profile Picture">
+					<h3>Jane Smith</h3>
+					<p>Age: 25</p>
+					<p>Location: Los Angeles, CA</p>
+					<p>Interests: Yoga, Reading, Painting</p>
+				</li>
+				<li>
+					<img src="profile-pic-3.jpg" alt="Profile Picture">
+					<h3>Mike Johnson</h3>
+					<p>Age: 32</p>
+					<p>Location: Chicago, IL</p>
+					<p>Interests: Sports, Music, Movies</p>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Dating Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
